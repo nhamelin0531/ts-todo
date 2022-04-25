@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Todo List</h1>
+    </header>
+    <main>
+        <form class="my-form">
+            <label for="name">Todo</label>
+            <input type="text" name="Todo" id="Todo">
+            <div class="name-error hidden"></div>
+
+            <label for="date">Due Date</label>
+            <input type="date" name="date" id="date">
+            <div class="card-error hidden"></div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="todos"></div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
